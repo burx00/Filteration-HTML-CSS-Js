@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "nasa";
+    src: url(nasalization-rg.otf);
+}
+@font-face {
+    font-family: "coco";
+    src: url(Cocogoose\ Pro\ Light\ Trial.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    background-color: #152238;
+}
+
+.logo a{
+    font-family: "nasa";
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.nav-list a{
+    border-radius: 15px;
+    font-family: "coco";
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav-list li{
+    list-style-type: none;
+}
+
+.nav-list a:hover{
+    transition: all 500ms;
+    color: #1c2e4a;
+    background-color: #fff;
+}
+
+.movie img{
+    height: 450px;
+    width: 300px;
+}
+
+.movie{
+    text-align: center;
+    width: 400px;
+    padding: 2rem;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 5px 10px black;
+}
+
+.movie-container{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    gap: 2rem;
+    margin-left: 8rem;
+    justify-content: center;
+    align-content: center;
+    row-gap: 5rem;
+    margin-top: 5rem;
+}
+
+.movie h2, h4{
+    font-family: "nasa";
+}
+
+.movie p{
+    font-family: "coco";
+}
